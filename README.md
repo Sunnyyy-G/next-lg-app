@@ -20,6 +20,33 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## 项目说明案例
+```
+my-next-app/
+├── node_modules/       # 项目依赖的第三方库
+├── public/             # 静态资源文件夹
+│   ├── favicon.ico     # 网站图标
+│   └── ...             # 其他静态资源（如图片、字体等）
+├── app/                # 应用路由目录（核心）
+│   ├── layout.js       # 根布局组件
+│   ├── page.js         # 首页组件
+│   ├── about/          # 关于页面
+│   │   └── page.js     # 关于页面组件
+│   ├── blog/           # 博客页面
+│   │   ├── page.js     # 博客列表页
+│   │   └── [slug]/     # 动态路由
+│   │       └── page.js # 博客详情页
+│   └── ...             # 其他页面和路由
+├── components/         # 可复用的 React 组件
+├── styles/             # 样式文件
+├── utils/              # 工具函数
+├── package.json        # 项目配置和依赖管理
+├── package-lock.json   # 依赖的精确版本锁定文件
+├── next.config.js      # Next.js 配置文件
+└── README.md           # 项目说明文档
+```
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
