@@ -61,3 +61,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## 内容说明
+
+- 包含了一个 Next.js 应用程序的目录结构，以及一些基本的 Next.js 功能和 API 的示例。
+- 如：路由、动态路由、tailwind css
+- 包含了一些性能优化，如：防抖（debounce）节流(throttle)、useEffect(useMemo、useCallback、useRef、useContext、useReducer、useImperativeHandle、useLayoutEffect、useDebugValue、useTransition、useDeferredValue、useId、useMutationEffect 后续继续输出)
+- 功能上包含：获取数据、搜索、Ajax XMLHttpRequest(Fetch API、axios、WebSocket 后续补充)
+ 
